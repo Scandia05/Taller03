@@ -33,4 +33,13 @@ public class Ram {
     public double getFrecuencia() {
         return frecuencia;
     }
+
+    @Override
+    public String toString() {
+        return "Ram{" +
+                "marca='" + marca + '\'' +
+                ", gb=" + gb +
+                ", frecuencia=" + frecuencia +
+                '}';
+    }
 }

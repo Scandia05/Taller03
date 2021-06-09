@@ -24,6 +24,7 @@ public class PrincipalTaller03 {
         Scanner telcado = new Scanner(System.in);
         System.out.println("Bienvenido, por favor ingrese una opcion");
         System.out.println("[1] mostrar datos");
+
         System.out.println("[2] Editar datos");
         System.out.println("[0] Salir");
     }
